@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos-EIDEA</title>
+    <link rel="shortcut icon" href="img/eidea_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos1.css">
+    <link rel="stylesheet" href="css/estilos2.css">
+    <link rel="stylesheet" href="css/estilos3.css">
+    <link rel="stylesheet" href="css/estilos4.css">
+    <link rel="stylesheet" href="css/estilos5.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/botonarriba.js"> </script>
+    <script src="js/limpiar.js"> </script>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="#" class="enlace">
+            <img src="img/eidea_icon.png" alt="" class="logo">
+        </a>
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="Nosotros.html">CONOCENOS</a></li>
+            <li><a href="Guia.html">GUÍA</a></li>
+            <li><a href="Biblioteca.html">BIBLIOTECA</a></li>
+            <li><a href="#">CONTENIDOS</a>
+                <ul>
+                <li><a href="Unidad1.html">Unidad 1</a></li>
+                <li><a href="Unidad2.html">Unidad 2</a></li>
+                <li><a href="Unidad3.html">Unidad 3</a></li>
+                <li><a href="Unidad4.html">Unidad 4</a></li>
+                <li><a href="Unidad5.html">Unidad 5</a></li>
+                <li><a href="Unidad6.html">Unidad 6</a></li>
+            </ul>
+            </li>
+            <li><a href="Juegos.html">JUEGOS</a></li>
+            <li><a class="active" href="#">CONTACTANOS</a></li>
+        </ul>
+    </nav>
+    <a class="ir-arriba"  javascript:void(0) title="Volver arriba">
+        <span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+<section>
+    <br>
+      <div class="container">
+        <form class="form" id="formulario" action="https://formspree.io/f/mayknpvz"
+        method="POST">
+           <div class="form_container">
+             <h2 class="form_titulo">Contáctanos</h2>
+             <input type="text" class="form_input"placeholder="Nombre:"name="name">
+             <input type="email" class="form_input"placeholder="Email:" name="E-mail">
+                <span>Asunto del mensaje</span>
+                <select name="asunto">
+                    <option>Comentario</option>
+                    <option>Sugerencia</option>
+                    <option>Reclamo</option>
+                </select>
+             <textarea class="form_input form__input--message" placeholder="Mensaje:"name="message"></textarea>
+             <input type="submit"  value="Enviar" class="form_04">
+             <input type="button" onclick="limpiarFormulario()" value="Borrar" class="form_05">
+            </div>
+     </form>
+</div>
+</section>
+
+<footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">Genesis Tomala & Rony Cervantes</h2>
+                    <p> Universidad de Guayaquil | Carrera de Informática </p>
+                </div>
+                <div class="social-media">
+                    <a href="https://m.facebook.com/EIDEA-101080046030020/" class="social-media-icon">   <img src="img/facebook.png" width="80%">
+                    </a>
+                    <a href="https://www.instagram.com/invites/contact/?i=pw85v8fnyfw1&utm_content=p1cbblm" class="social-media-icon"> <img src="img/instagram.png" width="80%">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCFQPwub7M1exJkj_Xc6yRBg" class="social-media-icon"> <img src="img/youtube.png" width="80%">
+                    </a>
+                    <a href="mailto:ronydereck20@outlook.com" class="social-media-icon">  <img src="img/gmail.png" width="80%">
+                    </a>
+                    <a href="https://twitter.com/EIDEA_2022" class="social-media-icon">  <img src="img/twitter.png" width="80%">
+                    </a>
+                </div>
+        </div>
+        <div class="line"></div>
+</footer>
+</body>
+</html>
